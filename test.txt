@@ -1,0 +1,19 @@
+node_name      node_type  alert_name/metric  date_created      severity_color  severity_number    details
+
+db1            postgres      cpu usage       31/05/2023 17:23:34    RED               3           cpu# =1,cpu_usage=99
+                                                                                                  cpu# =2,cpu_usage=97
+                                                    
+linux1           linux       disk usage      31/05/2023 17:23:34    YELLOW            2           disk_name=sd1,diak_usage=99,mount_point=/
+                                                                                                  disk_name=sd2,diak_usage=70,mount_point=/mnt/bck
+
+linux1           linux       cpu usage       31/05/2023 17:23:34    RED               3           cpu# =1,cpu_usage=99
+                                                                                                  cpu# =2,cpu_usage=97
+                                                                                                  
+                                                                                                  
+                                                                                                  
+1. node name
+2. node_type
+3. alert_name
+4  date_created
+5. severity_color
+6. severity_number
